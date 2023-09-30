@@ -253,7 +253,7 @@ namespace Exam
                 {
                     string json = JsonConvert.SerializeObject(obj, Formatting.Indented);
                     File.WriteAllText(fileName, json);
-                    Console.WriteLine($"{fileName} fayla yazildi.");
+                    Console.WriteLine($"{fileName} fayla yazildi..");
                 }
 
                 static void LogProcess(string process)
